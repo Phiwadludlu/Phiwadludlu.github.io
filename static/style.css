@@ -38,7 +38,18 @@ h2{
     text-decoration-color: rgba(253, 126, 20, 1);
 }
 
+.btn-primary{
 
+  color: white;
+  background-color:  rgba(253, 126, 20, 1);
+  border-color:  rgba(253, 126, 20, 1);
+  border-radius: 20%;
+}
+
+.btn-primary:hover{
+  background-color:  rgb(238, 117, 18);
+  border-color:   rgb(238, 117, 18);
+}
 
 /*Typing effect */
 
@@ -79,3 +90,5 @@ h2{
       blink-caret .75s step-end infinite;
     animation-delay: 3.5s;
 }
+
+
